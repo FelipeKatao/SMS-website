@@ -4,9 +4,9 @@ import mainPage from "../components/carrousel.js"
 let eng = new EngineApp()
 
 function ManageRoutes(){
-    eng.routesEngine.registerRoute("felipekatao.github.io/SMS-website/",mainPage)
-    eng.routesEngine.registerRoute("felipekatao.github.io/SMS-website/index.html#home",mainPage)
-    eng.routesEngine.runRoute("felipekatao.github.io/SMS-website/","felipekatao.github.io/SMS-website/index.html#home")
+    eng.routesEngine.registerRoute("https://smsambiental.netlify.app/",mainPage)
+    eng.routesEngine.registerRoute("https://smsambiental.netlify.app/#homePage",mainPage)
+    eng.routesEngine.runRoute("https://smsambiental.netlify.app/","https://smsambiental.netlify.app/#homePage")
 }
 
 
