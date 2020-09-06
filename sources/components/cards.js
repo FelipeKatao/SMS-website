@@ -7,7 +7,7 @@ function cards(img,CardTitle,body,id,Bt){
 }
 
 function cardsRender(img,CardTitle,body,bt){
-    return "<div class='card' style='width: 18rem;margin-left:4vh'>"+
+    return "<div class='card' style='width: 18rem;margin-left:4vh;margin-top:2vh'>"+
     "<img src='"+img+"' class='card-img-top' alt='...'>"+
     "<div class='card-body'>"+
       "<h5 class='card-title'>"+CardTitle+"</h5>"+
