@@ -1,0 +1,15 @@
+
+#footerDiv{
+    padding: 2vh;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 2vh;
+}
+#article01{
+    background-color: green;
+    width: 290vh;
+    padding: 4vh;
+    margin-left: -20vh;
+}
