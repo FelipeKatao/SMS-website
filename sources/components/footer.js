@@ -14,8 +14,8 @@ function footerRender(){
             "<p>Plataforma educacional sobre segurança do trabalho e meio ambiente.</p>"+
           "</div>"+
           "<hr class='clearfix w-100 d-md-none pb-3'>"+
-          "<div class='col-md-3 mb-md-0 mb-3'>"+
-            "<h5 class='text-uppercase'>Links</h5>"+
+          "<div id='footerMain' class='col-md-3 mb-md-0 mb-3'>"+
+            "<h5 class='text-uppercase'>Redes Sociais</h5>"+
             "<ul class='list-unstyled'>"+
               "<li>"+
                 "<a href='#!'>Link 1</a>"+
@@ -32,7 +32,7 @@ function footerRender(){
             "</ul>"+
           "</div>"+
           "<div class='col-md-3 mb-md-0 mb-3'>"+
-            "<h5 class='text-uppercase'>Links</h5>"+
+            "<h5 class='text-uppercase'>Parceiros</h5>"+
             "<ul class='list-unstyled'>"+
               "<li>"+
                 "<a href='#!'>Link 1</a>"+
