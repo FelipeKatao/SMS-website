@@ -4,9 +4,9 @@ import mainPage from "../components/carrousel.js"
 let eng = new EngineApp()
 
 function ManageRoutes(){
-    eng.routesEngine.registerRoute("https://felipekatao.github.io/SMS-website/",mainPage)
-    eng.routesEngine.registerRoute("https://felipekatao.github.io/SMS-website/index.html#home",mainPage)
-    eng.routesEngine.runRoute("https://felipekatao.github.io/SMS-website/","https://felipekatao.github.io/SMS-website/index.html#home")
+    eng.routesEngine.registerRoute("felipekatao.github.io/SMS-website/",mainPage)
+    eng.routesEngine.registerRoute("felipekatao.github.io/SMS-website/index.html#home",mainPage)
+    eng.routesEngine.runRoute("felipekatao.github.io/SMS-website/","felipekatao.github.io/SMS-website/index.html#home")
 }
 
 
