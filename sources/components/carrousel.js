@@ -22,9 +22,9 @@ function carrouselRender(){
                 "</picture>"+
                 "<div class='carousel-caption backImages'>"+
                     "<div>"+
-                        "<h2>Digital Craftsmanship</h2>"+
-                        "<p>We meticously build each site to get results</p>"+
-                        "<span class='btn btn-sm btn-outline-secondary'>Learn More</span>"+
+                        "<h2>Gestão ambiental</h2>"+
+                        "<p>Aprenda tudo que a gestão ambietal pode fazer na sua empresa</p>"+
+                        "<span class='btn btn-sm btn-outline-secondary'>Leia mais</span>"+
                     "</div>"+
                 "</div>"+
             "</a>"+
@@ -37,9 +37,9 @@ function carrouselRender(){
 
                 "<div class='carousel-caption justify-content-center align-items-center backImages'>"+
                     "<div>"+
-                        "<h2>Every project begins with a sketch</h2>"+
-                        "<p>We work as an extension of your business to explore solutions</p>"+
-                        "<span class='btn btn-sm btn-outline-secondary'>Our Process</span>"+
+                        "<h2>Saude no trabalho</h2>"+
+                        "<p>Saiba como implementar o setor de saude na empresa, saiba mais!</p>"+
+                        "<span class='btn btn-sm btn-outline-secondary'>Nossos cursos</span>"+
                     "</div>"+
                 "</div>"+
             "</a>"+
@@ -53,9 +53,9 @@ function carrouselRender(){
 
                 "<div class='carousel-caption justify-content-center align-items-center backImages'>"+
                     "<div>"+
-                        "<h2>Performance Optimization</h2>"+
-                        "<p>We monitor and optimize your site's long-term performance</p>"+
-                        "<span class='btn btn-sm btn-secondary'>Learn How</span>"+
+                        "<h2>Segurança no trabalho</h2>"+
+                        "<p>Entenda como deixar o ambiente de trabalho mais seguro</p>"+
+                        "<span class='btn btn-sm btn-secondary'>Aprenda como</span>"+
                     "</div>"+
                 "</div>"+
             "</a>"+
