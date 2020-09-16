@@ -3,7 +3,7 @@ let eng = new EngineApp()
 
 function cards(img,CardTitle,body,id,Bt){
     eng.componentsEngine.createComponent("card"+id,cardsRender(img,CardTitle,body,Bt))
-    eng.componentsEngine.renderComponent("article01","card"+id)
+    eng.componentsEngine.renderComponent("baseArticle1","card"+id)
 }
 
 function cardsRender(img,CardTitle,body,bt){
