@@ -8,7 +8,7 @@ function article(){
 }
 
 function articlerender(){
-    return "<br><div id='article01' class='row articlesMode'> </div>"
+    return "<br><div id='article01' class='row articlesMode'> <div class='container row' id='baseArticle1'></div </div>"
 }
 
 export default article
