@@ -4,6 +4,22 @@ function menu(){
     let eng = new EngineApp()
     eng.componentsEngine.createComponent('menu',menuRender())
     eng.componentsEngine.renderComponent('menu','menu')
+    AddListenersSearch()
+}
+
+function AddListenersSearch(){
+  document.getElementById("searchbt").addEventListener("click",function(event){
+    event.preventDefault()
+    let elementSearch = document.getElementById("searchBox1")
+    elementSearch.classList = "searchBox-Active"
+    elementSearch.focus()
+   // elementSearch.classList+=" searchBox-Active"
+})
+  document.getElementById("searchBox1").addEventListener("focusout",function(event){
+    let elementSearch = document.getElementById("searchBox1")
+    elementSearch.classList = "form-control mr-sm-2 searchBox-disible"
+    elementSearch.value =""
+  })
 }
 
 function menuRender(){
@@ -29,10 +45,8 @@ function menuRender(){
         "<li class='nav-item'>"+
          "<a class='nav-link' href='#'>Contato</a>"+
       "</ul>"+
-      "<form class='form-inline my-2 my-lg-0'>"+
-        "<input class='form-control mr-sm-2' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
-        "<button class='btn btn-outline-success my-2 my-sm-0' type='submit' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
-      "</form>"+
+        "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
+        "<button id='searchbt' class='btn btn-outline-success my-2 my-sm-0' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
     "</div>"+
   "</nav>"
 }
