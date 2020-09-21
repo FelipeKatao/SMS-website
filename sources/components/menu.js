@@ -7,12 +7,12 @@ function menu(){
 }
 
 function menuRender(){
-    return "<nav id='menu01' class='navbar navbar-expand-lg  shadowBody' style='background-color: #0B3C5D';color:white>"+
+    return "<nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
     "<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation'>"+
       "<span><img class='logo-shadow' src='sources/img/logo.png' height='40vh'></span>"+
     "</button>"+
     "<div class='collapse navbar-collapse' id='navbarTogglerDemo01'>"+
-      "<a class='navbar-brand' href='#'><img id='logoMain' class='logo-shadow' src='sources/img/logo.png' height='40vh'></a>"+
+      "<a class='navbar-brand' href='#'><img id='logoMain' src='sources/img/logo.png' height='40vh'></a>"+
       "<ul class='navbar-nav mr-auto mt-2 mt-lg-0'>"+
         "<li class='nav-item'>"+
          " <a class='nav-link' href='#'>Segurança</a>"+

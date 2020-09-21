@@ -41,10 +41,14 @@ ul li a{
 }
 
 #menu01{
-    color:white
+    background-color: white;
+    color:#328cc1
 }
 #menu01 :hover{
-    color:#328cc1
+    color:#205879
+}
+#menu01 ul li a{
+    color: #328cc1;
 }
 
 .shadowBody{
