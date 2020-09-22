@@ -18,7 +18,7 @@ function carrouselRender(){
         "<div class='carousel-item active'>"+
             "<a href='#'>"+
                  "<picture>"+
-                  "<img srcset='sources/img/Gestao-Ambiental-em-Postos-de-Combustivel-1200x675.jpg' alt='responsive image' class='d-block img-fluid' style='width:100%'>"+
+                  "<img  srcset='sources/img/Gestao-Ambiental-em-Postos-de-Combustivel-1200x675.jpg' alt='responsive image' class='d-block img-fluid' style='width:100%'>"+
                 "</picture>"+
                 "<div class='carousel-caption backImages'>"+
                     "<div>"+
