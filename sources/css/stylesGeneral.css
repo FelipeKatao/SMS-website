@@ -12,9 +12,9 @@ body{
 #article01{
     display: flex;
     flex-direction: row;
-    background-color: #328CC1;
-    width: 200vh;
-    padding: 4vh;
+    background-color: #1f6c99;
+    width: 198vh;
+    padding: 2vh;
     margin: auto;
 }
 
@@ -82,13 +82,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 
 .articleContainer{
     border-radius: 2vh;
-    background: rgba(50,140,193,1);
-    background: -moz-linear-gradient(top, rgba(50,140,193,1) 0%, rgba(147,206,222,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(50,140,193,1)), color-stop(100%, rgba(147,206,222,1)));
-    background: -webkit-linear-gradient(top, rgba(50,140,193,1) 0%, rgba(147,206,222,1) 100%);
-    background: -o-linear-gradient(top, rgba(50,140,193,1) 0%, rgba(147,206,222,1) 100%);
-    background: -ms-linear-gradient(top, rgba(50,140,193,1) 0%, rgba(147,206,222,1) 100%);
-    background: linear-gradient(to bottom, rgba(50,140,193,1) 0%, rgba(147,206,222,1) 100%);
+    background-color: #cee2ee;
 }
 .searchBox-disible{
     visibility: hidden;
