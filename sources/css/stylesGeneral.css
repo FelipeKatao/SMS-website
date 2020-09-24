@@ -1,6 +1,4 @@
-body{
-    background-color: #1D2731;
-}
+
 #footerDiv{
     padding: 2vh;
     background-color:#0B3C5D;
@@ -12,7 +10,6 @@ body{
 #article01{
     display: flex;
     flex-direction: row;
-    background-color: #1f6c99;
     width: 198vh;
     padding: 2vh;
     margin: auto;
@@ -27,10 +24,10 @@ ul li a{
     color:#328cc1
 }
 #menu01 :hover{
-    color:#205879
+    color:#328cc1;
 }
 #menu01 ul li a{
-    color: #328cc1;
+    color:  #205879;
 }
 
 .shadowBody{
@@ -82,7 +79,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 
 .articleContainer{
     border-radius: 2vh;
-    background-color: #cee2ee;
 }
 .searchBox-disible{
     visibility: hidden;
@@ -99,6 +95,13 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     outline: none;
 }
 
+.card-text,.card-title{
+    color:#328cc1
+}
+
+#footerMain,#aboutFooter,#corp{
+    color: #d98310;
+}
 
 /* responsividade*/
 
