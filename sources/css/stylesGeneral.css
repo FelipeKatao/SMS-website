@@ -136,9 +136,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }  
 }
 @media (min-width:360px) and (max-width:500px){
-    *{
-        overflow-x: hidden;
-    }
     #carousel{
         width: 60vh;
         margin-top: 10vh;
@@ -162,9 +159,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 
 @media (min-width:600px) and (max-width:700px){
-    *{
-        overflow-x: hidden;
-    }
     #carousel{
         width: 180vh;
         margin-top: 10vh;
