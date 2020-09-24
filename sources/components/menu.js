@@ -25,7 +25,7 @@ function AddListenersSearch(){
 function menuRender(){
     return "<nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
     "<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation'>"+
-      "<span><img class='logo-shadow' src='sources/img/logo.png' height='40vh'></span>"+
+      "<span><img src='sources/img/logo.png' height='40vh'></span>"+
     "</button>"+
     "<div class='collapse navbar-collapse' id='navbarTogglerDemo01'>"+
       "<a class='navbar-brand' href='#'><img id='logoMain' src='sources/img/logo.png' height='40vh'></a>"+
