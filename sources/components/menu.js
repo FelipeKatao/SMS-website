@@ -29,7 +29,7 @@ function menuRender(){
     "</button>"+
     "<div class='collapse navbar-collapse' id='navbarTogglerDemo01'>"+
       "<a class='navbar-brand' href='#'><img id='logoMain' src='sources/img/logo.png' height='40vh'></a>"+
-      "<ul class='navbar-nav mr-auto mt-2 mt-lg-0'>"+
+      "<ul class='navbar-nav mr-auto mt-2 mt-lg-0 padingNavItem'>"+
         "<li class='nav-item'>"+
          " <a class='nav-link' href='#'>Segurança</a>"+
         "</li>"+
@@ -46,7 +46,7 @@ function menuRender(){
          "<a class='nav-link' href='#'>Contato</a>"+
       "</ul>"+
         "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
-        "<button id='searchbt' class='btn btn-outline-success my-2 my-sm-0' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
+        "<button id='searchbt' class='btn my-2 my-sm-0' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
     "</div>"+
   "</nav>"
 }

@@ -103,6 +103,14 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     color: #d98310;
 }
 
+.padingNavItem{
+    margin: auto;
+    margin-left: -10vh;
+}
+.padingNavItem  li{
+    margin-left: 20vh;
+} 
+
 /* responsividade*/
 
 @media (max-width:990px){
