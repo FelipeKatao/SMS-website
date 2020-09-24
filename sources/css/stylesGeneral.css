@@ -93,6 +93,9 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 .searchBox-Active:focus{
     border: #0B3C5D solid 0.4vh;
     outline: none;
+    opacity: 0;
+    animation-name: SearchBox;
+    animation-duration: 4s;
 }
 
 .card-text,.card-title{
@@ -200,3 +203,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
 }
 
+/*Animations*/
+@keyframes SearchBox{
+    0% {opacity: 0; }
+    100%{opacity: 2;}
+}
