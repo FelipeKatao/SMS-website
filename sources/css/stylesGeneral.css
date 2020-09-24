@@ -1,6 +1,4 @@
-body{
-    background-color: #1D2731;
-}
+
 #footerDiv{
     padding: 2vh;
     background-color:#0B3C5D;
@@ -12,7 +10,6 @@ body{
 #article01{
     display: flex;
     flex-direction: row;
-    background-color: #1f6c99;
     width: 198vh;
     padding: 2vh;
     margin: auto;
@@ -27,10 +24,10 @@ ul li a{
     color:#328cc1
 }
 #menu01 :hover{
-    color:#205879
+    color:#328cc1;
 }
 #menu01 ul li a{
-    color: #328cc1;
+    color:  #205879;
 }
 
 .shadowBody{
@@ -82,7 +79,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 
 .articleContainer{
     border-radius: 2vh;
-    background-color: #cee2ee;
 }
 .searchBox-disible{
     visibility: hidden;
@@ -97,10 +93,94 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 .searchBox-Active:focus{
     border: #0B3C5D solid 0.4vh;
     outline: none;
+    opacity: 0;
+    animation-name: SearchBox;
+    animation-duration: 4s;
 }
 
+.card-text,.card-title{
+    color:#328cc1
+}
+
+#footerMain,#aboutFooter,#corp{
+    color: #d98310;
+}
+
+.padingNavItem{
+    margin: auto;
+    margin-left: -10vh;
+}
+.padingNavItem  li{
+    margin-left: 20vh;
+} 
 
 /* responsividade*/
+
+@media (max-width:1093px) and (min-width:990px){
+    .padingNavItem  li{
+        margin-left: 10vh;
+    } 
+    .padingNavItem{
+        margin: auto;
+        margin-left: 14vh;
+    }
+    .carousel{
+        width: 170vh;
+        margin-left: -7vh;
+        background:#007aeb;
+      }
+      #article01{
+        margin-left: 20vh;
+        flex-direction: column;
+        width: 160vh;
+    }  
+}
+@media (min-width:360px) and (max-width:500px){
+    #carousel{
+        width: 60vh;
+        margin-top: 10vh;
+        margin-left: -4vh;
+        position: absolute;
+        background:#007aeb;
+      }
+      .carousel-caption div h2{
+          font-size:small
+      }
+      .carousel-caption div p{
+        font-size: small;
+    }
+    .shadowBody{
+        color:white
+    }
+    #article01{
+        margin-top: 30vh;
+        margin-left: -8vh;
+    }
+}
+
+@media (min-width:600px) and (max-width:700px){
+    #carousel{
+        width: 180vh;
+        margin-top: 10vh;
+        margin-left: -4vh;
+        position: absolute;
+        background:#007aeb;
+      }
+      .carousel-caption div h2{
+          font-size:small
+      }
+      .carousel-caption div p{
+        font-size: small;
+    }
+    .shadowBody{
+        color:white
+    }
+    #article01{
+        margin-top: 84vh;
+        margin-left: 30vh;
+    }
+}
+
 
 @media (max-width:990px){
     .carousel{
@@ -117,17 +197,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
 }
 
-@media (max-width:600px){
-    .carousel{
-      width: auto;
-      position: absolute;
-      margin-top: 10vh;
-    }
-    #article01{
-        margin-top: 40vh;
-        width: 60vh;
-    }
-    #logoMain{
-        visibility: hidden;
-    }
+/*Animations*/
+@keyframes SearchBox{
+    0% {opacity: 0; }
+    100%{opacity: 2;}
 }
