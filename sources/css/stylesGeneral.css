@@ -135,9 +135,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 /* responsividade*/
 
 @media (max-width:1093px) and (min-width:990px){
-    body{
-        background-color: red;
-    }
     .padingNavItem  li{
         margin-left: 10vh;
     } 
@@ -170,13 +167,10 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
 }
 @media (min-width:360px) and (max-width:500px){
-    body{
-        background-color: red;
-    }
     #carousel{
         width: 100%;
         margin-top: 10vh;
-        margin-left: -2vh;
+        margin-left: -3vh;
         position: absolute;
       }
       .carousel-caption div h2{
@@ -190,8 +184,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
     #article01{
         width: 10vh;
-        margin-top: 36vh;
-        margin-left: -2vh;
+        margin-top: 29vh;
+        margin-left: -13vh;
     }
 }
 
@@ -218,9 +212,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 
 @media (min-width:600px) and (max-width:700px){
-    body{
-        background-color: red;
-    }
     #carousel{
         width: 100%;
         margin-top: 10vh;
@@ -262,6 +253,31 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         width: 10vh;
         margin-top: 32vh;
         margin-left: -9vh;
+    }
+}
+/*Media Para celulares deitados*/ 
+@media (max-height:640px) and (min-width:360px){
+    #carousel{
+        width: 140vh;
+        margin-left: -4vh;
+        margin-top: 10vh;
+        position: absolute;
+      }
+      .carousel-caption div h2{
+          margin-top: 2vh;
+          font-size:small
+      }
+      .carousel-caption div p{
+          margin-top: -2vh;
+        font-size: small;
+    }
+    .shadowBody{
+        color:white
+    }
+    #article01{
+        width: 10vh;
+        margin-top: 62vh;
+        margin-left: 12vh;
     }
 }
 
