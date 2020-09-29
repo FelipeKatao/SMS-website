@@ -27,7 +27,7 @@ function menuRender(){
     "<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation'>"+
       "<span><img src='sources/img/logo.png' height='40vh'></span>"+
     "</button>"+
-    "<div id='menu-content' class='collapse navbar-collapse' id='navbarTogglerDemo01'>"+
+    "<div class='collapse navbar-collapse' id='navbarTogglerDemo01'>"+
       "<a class='navbar-brand' href='#'><img id='logoMain' src='sources/img/logo.png' height='40vh'></a>"+
       "<ul id='menu-list' class='navbar-nav mr-auto mt-2 mt-lg-0 padingNavItem'>"+
         "<li class='nav-item'>"+
