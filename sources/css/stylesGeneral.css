@@ -185,14 +185,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #article01{
         width: 10vh;
         margin-top: 29vh;
-        margin-left: -13vh;
+        margin-left: -8vh;
     }
 }
 
 @media (min-width:501px) and (max-width:598px){
-    body{
-        background-color: green;
-    }
+
     #carousel{
         width: 100%;
         margin-top: 10vh;
@@ -215,9 +213,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 
 @media (min-width:600px) and (max-width:700px){
-    body{
-        background-color: #0B3C5D;
-    }
+
     #carousel{
         width: 100%;
         margin-top: 10vh;
@@ -239,9 +235,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
 }
 @media (min-width:210px) and (max-width:359px){
-    body{
-        background-color: red;
-    }
     #carousel{
         width: 100%;
         margin-top: 10vh;
@@ -266,11 +259,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 /*Media Para celulares deitados*/ 
 @media (max-height:640px) and (min-width:360px){
-    body{
-        background-color: #d98310;
-    }
     #carousel{
-        width: 190vh;
+        width: 240vh;
         margin-left: -7vh;
         margin-top: 10vh;
         position: absolute;
@@ -289,7 +279,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #article01{
         width: 10vh;
         margin-top: 82vh;
-        margin-left: 30vh;
+        margin-left: 38vh;
     }
 }
 
