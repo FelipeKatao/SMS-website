@@ -29,6 +29,24 @@ ul li a{
 #menu01 ul li a{
     color:  #205879;
 }
+#menu-content{
+    margin:auto;
+    z-index: 9;
+}
+#menu-list{
+    margin: auto;
+    margin-left: 4vh;
+    z-index: 9;
+}
+.grayNav{
+    background-color: gray;
+    width: 100%;
+    height: 3vh;
+    margin-top: -7vh;
+    margin-left: -3vh;
+    position: absolute;
+    z-index: 5;
+}
 
 .shadowBody{
     z-index: 99;
@@ -150,7 +168,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         font-size: small;
     }
     .shadowBody{
-        color:white
+        color:white;
     }
     #article01{
         margin-top: 30vh;
@@ -159,8 +177,11 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 
 @media (min-width:600px) and (max-width:700px){
+    body{
+        background-color: red;
+    }
     #carousel{
-        width: 180vh;
+        width: 80vh;
         margin-top: 10vh;
         margin-left: -4vh;
         position: absolute;
@@ -176,24 +197,9 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         color:white
     }
     #article01{
+        width: 10vh;
         margin-top: 84vh;
         margin-left: 30vh;
-    }
-}
-
-
-@media (max-width:990px){
-    .carousel{
-      width: 150vh;
-      margin-left: -7vh;
-      background:#007aeb;
-    }
-    #article01{
-        flex-direction: column;
-        width: 140vh;
-    }
-    #logoMain{
-        visibility: hidden;
     }
 }
 
