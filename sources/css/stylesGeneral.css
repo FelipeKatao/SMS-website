@@ -29,6 +29,24 @@ ul li a{
 #menu01 ul li a{
     color:  #205879;
 }
+#menu-content{
+    margin:auto;
+    z-index: 9;
+}
+#menu-list{
+    margin: auto;
+    margin-left: 4vh;
+    z-index: 9;
+}
+.grayNav{
+    background-color: gray;
+    width: 100%;
+    height: 3vh;
+    margin-top: -7vh;
+    margin-left: -3vh;
+    position: absolute;
+    z-index: 5;
+}
 
 .shadowBody{
     z-index: 99;
@@ -135,13 +153,47 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         width: 160vh;
     }  
 }
-@media (min-width:360px) and (max-width:500px){
+@media(max-width:986px) and (min-width:702px){
     #carousel{
-        width: 60vh;
+        width: 100%;
         margin-top: 10vh;
-        margin-left: -4vh;
         position: absolute;
         background:#007aeb;
+    }
+    #article01{
+        width: 180vh;
+        margin-top: 50vh;
+        margin-left: -13vh;
+    }
+}
+@media (min-width:360px) and (max-width:500px){
+    #carousel{
+        width: 100%;
+        margin-top: 10vh;
+        margin-left: -3vh;
+        position: absolute;
+      }
+      .carousel-caption div h2{
+          font-size:small
+      }
+      .carousel-caption div p{
+        font-size: small;
+    }
+    .shadowBody{
+        color:white;
+    }
+    #article01{
+        width: 10vh;
+        margin-top: 29vh;
+        margin-left: -13vh;
+    }
+}
+
+@media (min-width:501px) and (max-width:598px){
+    #carousel{
+        width: 100%;
+        margin-top: 10vh;
+        position: absolute;
       }
       .carousel-caption div h2{
           font-size:small
@@ -153,18 +205,17 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         color:white
     }
     #article01{
-        margin-top: 30vh;
-        margin-left: -8vh;
+        width: 10vh;
+        margin-top: 45vh;
+        margin-left: 10vh;
     }
 }
 
 @media (min-width:600px) and (max-width:700px){
     #carousel{
-        width: 180vh;
+        width: 100%;
         margin-top: 10vh;
-        margin-left: -4vh;
         position: absolute;
-        background:#007aeb;
       }
       .carousel-caption div h2{
           font-size:small
@@ -176,24 +227,57 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         color:white
     }
     #article01{
-        margin-top: 84vh;
-        margin-left: 30vh;
+        width: 10vh;
+        margin-top: 45vh;
+        margin-left: 14vh;
     }
 }
-
-
-@media (max-width:990px){
-    .carousel{
-      width: 150vh;
-      margin-left: -7vh;
-      background:#007aeb;
+@media (min-width:210px) and (max-width:359px){
+    #carousel{
+        width: 100%;
+        margin-top: 10vh;
+        position: absolute;
+      }
+      .carousel-caption div h2{
+          margin-top: 2vh;
+          font-size:small
+      }
+      .carousel-caption div p{
+          margin-top: -2vh;
+        font-size: small;
+    }
+    .shadowBody{
+        color:white
     }
     #article01{
-        flex-direction: column;
-        width: 140vh;
+        width: 10vh;
+        margin-top: 32vh;
+        margin-left: -9vh;
     }
-    #logoMain{
-        visibility: hidden;
+}
+/*Media Para celulares deitados*/ 
+@media (max-height:640px) and (min-width:360px){
+    #carousel{
+        width: 140vh;
+        margin-left: -4vh;
+        margin-top: 10vh;
+        position: absolute;
+      }
+      .carousel-caption div h2{
+          margin-top: 2vh;
+          font-size:small
+      }
+      .carousel-caption div p{
+          margin-top: -2vh;
+        font-size: small;
+    }
+    .shadowBody{
+        color:white
+    }
+    #article01{
+        width: 10vh;
+        margin-top: 62vh;
+        margin-left: 12vh;
     }
 }
 
