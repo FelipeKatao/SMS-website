@@ -23,7 +23,7 @@ function AddListenersSearch(){
 }
 
 function menuRender(){
-    return "<nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
+    return "<div class='grayNav'>aaa</div>  <nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
     "<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation'>"+
       "<span><img src='sources/img/logo.png' height='40vh'></span>"+
     "</button>"+
@@ -48,7 +48,6 @@ function menuRender(){
         "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
         "<button id='searchbt' class='btn my-2 my-sm-0' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
     "</div>"+
-    "<div class='grayNav'></div>"+
   "</nav>"
 }
 
