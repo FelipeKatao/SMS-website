@@ -144,13 +144,13 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     margin-left: 20vh;
 } 
 .carousel-control-prev{
-    margin-left: 2vh;
+    margin-left: 1vh;
 }
 .carousel-control-next{
-    margin-right: 17vh;
+    margin-right: 10vh;
 }
 .carousel-caption{
-    width: 170vh;
+    width: 176vh;
     margin-left: -20vh;
 }
 
@@ -170,7 +170,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         background:#007aeb;
       }
       #article01{
-        margin-left: 20vh;
+        margin-left: auto;
         flex-direction: column;
         width: 160vh;
     }  
