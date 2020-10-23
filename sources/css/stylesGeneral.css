@@ -39,6 +39,15 @@ ul li a{
     margin-left: 4vh;
     z-index: 9;
 }
+.nav-item{
+    margin-top: 2vh;
+}
+#searchbt{
+    margin-top: 2vh;
+    border: none;
+    background: none;
+    padding: 0;
+}
 .grayNav{
     background-color:#0B3C5D;
     width: 100%;
@@ -134,6 +143,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 .padingNavItem  li{
     margin-left: 20vh;
 } 
+.carousel-control-prev{
+    margin-left: 20vh;
+}
+.carousel-control-next{
+    margin-right: 20vh;
+}
 
 /* responsividade*/
 

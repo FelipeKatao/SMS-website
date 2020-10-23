@@ -50,7 +50,7 @@ function menuRender(){
          "<a class='nav-link' href='#'>Contato</a>"+
       "</ul>"+
         "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
-        "<button id='searchbt' class='btn my-2 my-sm-0' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
+        "<button id='searchbt' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
     "</div>"+
   "</nav>"
 }
