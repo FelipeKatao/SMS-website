@@ -150,8 +150,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     margin-right: 10vh;
 }
 .carousel-caption{
-    width: 176vh;
-    margin-left: -20vh;
+    width: 169vh;
+    margin-left: -18vh;
 }
 
 /* responsividade*/
@@ -170,7 +170,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         background:#007aeb;
       }
       #article01{
-        margin-left: auto;
+        margin: auto;
         flex-direction: column;
         width: 160vh;
     }  
