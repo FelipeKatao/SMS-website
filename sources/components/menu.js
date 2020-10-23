@@ -13,12 +13,16 @@ function AddListenersSearch(){
     let elementSearch = document.getElementById("searchBox1")
     elementSearch.classList = "searchBox-Active"
     elementSearch.focus()
+    elementSearch.style.width="100%"
+    document.getElementById("menu-list").style.display="none"
    // elementSearch.classList+=" searchBox-Active"
 })
   document.getElementById("searchBox1").addEventListener("focusout",function(event){
     let elementSearch = document.getElementById("searchBox1")
     elementSearch.classList = "form-control mr-sm-2 searchBox-disible"
     elementSearch.value =""
+    elementSearch.style.width="20vh"
+    document.getElementById("menu-list").style.display="flex"
   })
 }
 
