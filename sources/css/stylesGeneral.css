@@ -217,6 +217,16 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-top: 8vh;
     }
 }
+/*Para quando for deitar o celular*/
+@media (max-height:450px){
+    #footerDiv{
+        height: 120vh;
+        margin-top: 460vh;
+    }
+    footer{
+        margin-left: 10vh;
+    }
+}
 
 /*Animations*/
 @keyframes SearchBox{
