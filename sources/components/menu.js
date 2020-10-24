@@ -3,7 +3,7 @@ import EngineApp from '../../Framework/engine.js'
 function menu(){
     let eng = new EngineApp()
     eng.componentsEngine.createComponent('menu',menuRender())
-    eng.componentsEngine.renderComponent('menu','menu')
+    eng.componentsEngine.renderComponent('app','menu')
     AddListenersSearch()
 }
 
