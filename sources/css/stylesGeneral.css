@@ -191,7 +191,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-left: -6vh;
     }
     #footerDiv{
-        height: 60vh;
+        height: 80vh;
         margin-top: 260vh;
     }
     #carousel{
@@ -215,6 +215,19 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
     .carousel-item{
         margin-top: 8vh;
+    }
+}
+/*Para quando for deitar o celular*/
+@media (max-height:450px){
+    #footerDiv{
+        height: 120vh;
+        margin-top: 460vh;
+    }
+    footer{
+        margin-left: 10vh;
+    }
+    #article01{
+        margin-left:40vh;
     }
 }
 
