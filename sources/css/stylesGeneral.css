@@ -191,7 +191,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-left: -6vh;
     }
     #footerDiv{
-        height: 60vh;
+        height: 80vh;
         margin-top: 260vh;
     }
     #carousel{
@@ -225,6 +225,9 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
     footer{
         margin-left: 10vh;
+    }
+    #article01{
+        margin-left:40vh;
     }
 }
 
