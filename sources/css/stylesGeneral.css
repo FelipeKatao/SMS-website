@@ -236,6 +236,11 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-top: 420vh;
     }
 }
+@media(max-height:900px){
+    #footerDiv{
+        margin-top: 80vh;
+    }
+}
 
 /*Animations*/
 @keyframes SearchBox{
