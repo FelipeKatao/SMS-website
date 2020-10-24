@@ -189,6 +189,10 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #article01{
         margin-left: -6vh;
     }
+    #footerDiv{
+        height: 60vh;
+        margin-top: 260vh;
+    }
 }
 
 /*Animations*/
