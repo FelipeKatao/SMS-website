@@ -233,7 +233,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 }
 @media (max-height:780px){
     #footerDiv{
-        margin-top: 560vh;
+        margin-top: 420vh;
     }
 }
 
