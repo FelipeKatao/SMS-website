@@ -194,6 +194,13 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         height: 60vh;
         margin-top: 260vh;
     }
+    #carousel{
+        margin-top: 10vh;
+    }
+    .carousel-caption{
+        margin-left: -60vh;
+        font-size: small;
+    }
 }
 
 /*Animations*/
