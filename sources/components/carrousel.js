@@ -3,7 +3,7 @@ import EngineApp from '../../Framework/engine.js'
 function carrousel(){
     let eng = new EngineApp()
     eng.componentsEngine.createComponent('carrousel',carrouselRender())
-    eng.componentsEngine.renderComponent('dynamic','carrousel')
+    eng.componentsEngine.renderComponent('app','carrousel')
     
 }
 

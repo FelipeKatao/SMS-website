@@ -3,7 +3,7 @@ import EngineApp from '../../Framework/engine.js'
 function menu(){
     let eng = new EngineApp()
     eng.componentsEngine.createComponent('menu',menuRender())
-    eng.componentsEngine.renderComponent('menu','menu')
+    eng.componentsEngine.renderComponent('app','menu')
     AddListenersSearch()
 }
 
@@ -27,7 +27,7 @@ function AddListenersSearch(){
 }
 
 function menuRender(){
-    return "<div class='grayNav'>aaa</div>  <nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
+    return "<div class='grayNav item-fluid'>aaa</div>  <nav id='menu01' class='navbar navbar-expand-lg  shadowBody'>"+
     "<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation'>"+
       "<span><img src='sources/img/logo.png' height='40vh'></span>"+
     "</button>"+
