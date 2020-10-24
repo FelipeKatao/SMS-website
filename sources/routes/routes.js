@@ -4,9 +4,8 @@ import mainPage from "../pages/mainPage.js"
 let eng = new EngineApp()
 
 function ManageRoutes(){
-        eng.routesEngine.registerRoute("https://smsambiental.netlify.app/",mainPage)
-        eng.routesEngine.registerRoute("https://smsambiental.netlify.app/#homePage",mainPage)
-        eng.routesEngine.runRoute("https://smsambiental.netlify.app/","https://smsambiental.netlify.app/#homePage")
+        eng.routesEngine.registerRoute("http://127.0.0.1:5500/index.html#Page",mainPage)
+        eng.routesEngine.runRoute("http://127.0.0.1:5500/","http://127.0.0.1:5500/index.html#Page")
 }
 
 
