@@ -185,6 +185,11 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     width: 100%;
     height: auto;
 }
+@media (max-width:450px){
+    #article01{
+        margin-left: -6vh;
+    }
+}
 
 /*Animations*/
 @keyframes SearchBox{
