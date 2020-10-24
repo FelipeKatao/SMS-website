@@ -201,6 +201,21 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-left: -60vh;
         font-size: small;
     }
+    .carousel-caption p{
+        width: 32vh;
+        margin-left: 70vh;
+    }
+    .carousel-control-next {
+        margin-top: 9vh;
+        margin-right: 2vh;
+    }
+    .carousel-control-prev{
+        margin-top: 9vh;
+        margin-left: 5vh;
+    }
+    .carousel-item{
+        margin-top: 8vh;
+    }
 }
 
 /*Animations*/
