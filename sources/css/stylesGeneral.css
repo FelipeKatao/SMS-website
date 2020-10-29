@@ -8,9 +8,6 @@
         margin-left: 5vh;
         margin-top: 3vh;
     }
-    body{
-        background-color: red;
-    }
 }
 .container-fluid{
     display: grid;
@@ -230,6 +227,24 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
     .carousel-item{
         margin-top: 8vh;
+    }
+}
+@media (max-width:375px){
+    #article01{
+        margin-left: -6vh;
+    }
+    #footerDiv{
+        height: 80vh;
+        margin-top: 200vh;
+    }
+}
+@media (max-width:360px){
+    #article01{
+        margin-left: -6vh;
+    }
+    #footerDiv{
+        height: 80vh;
+        margin-top: 246vh;
     }
 }
 /*Para quando for deitar o celular*/
