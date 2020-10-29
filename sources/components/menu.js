@@ -16,7 +16,10 @@ function AddListenersSearch(){
     if(screen.width<=400){
       elementSearch.style.width="20vh"
     }
-    //elementSearch.style.width="100%"
+    else{
+    elementSearch.style.width="100%"  
+    }
+    
     document.getElementById("menu-list").style.display="none"
     document.getElementById("brandLogo").style.display ="none"
    // elementSearch.classList+=" searchBox-Active"
