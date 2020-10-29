@@ -231,9 +231,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     .carousel-item{
         margin-top: 8vh;
     }
-    @keyframes SearchBox{
-        0% {opacity: 0; width: 10vh; }
-        100%{opacity: 2; width: 40vh;}
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 }
 @media (max-width:375px){
@@ -244,9 +247,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         height: 80vh;
         margin-top: 200vh;
     }
-    @keyframes SearchBox{
-        0% {opacity: 0; width: 10vh; }
-        100%{opacity: 2; width: 40vh;}
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 }
 @media (max-width:360px){
@@ -257,9 +263,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         height: 80vh;
         margin-top: 246vh;
     }
-    @keyframes SearchBox{
-        0% {opacity: 0; width: 10vh; }
-        100%{opacity: 2; width: 40vh;}
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 }
 /*Para quando for deitar o celular*/
@@ -277,23 +286,36 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #brandLogo{
         margin-left: 10vh;
     }
-    @keyframes SearchBox{
-        0% {opacity: 0; width: 10vh; }
-        100%{opacity: 2; width: 40vh;}
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 }
 @media (max-height:540px){
     #footerDiv{
         margin-top: 420vh;
     }
-    @keyframes SearchBox{
-        0% {opacity: 0; width: 10vh; }
-        100%{opacity: 2; width: 40vh;}
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 }
 @media screen and (min-height:665px) and (min-width:1053px) {
     #footerDiv{
         margin-top: 90vh;
+    }
+    .searchBox-Active:focus{
+        border: #0B3C5D solid 0.4vh;
+        outline: none;
+        animation: SearchBoxResp;
+        animation-duration: 3s;
+        transition: 2s;
     }
 } 
 
@@ -302,4 +324,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 @keyframes SearchBox{
     0% {opacity: 0; width: 10vh; }
     100%{opacity: 2; width: 100%;}
+}
+@keyframes SearchBoxResp{
+    0% {opacity: 0; width: 10vh; }
+    100%{opacity: 2; width: 20vh;}
 }
