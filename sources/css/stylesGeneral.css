@@ -9,6 +9,9 @@
         margin-top: 3vh;
     }
 }
+.navbar-toggler-icon{
+    margin-top: 3vh;
+}
 .container-fluid{
     display: grid;
     gap:1rem;
