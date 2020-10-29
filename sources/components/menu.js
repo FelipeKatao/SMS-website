@@ -57,7 +57,7 @@ function menuRender(){
          "<a class='nav-link' href='#'>Contato</a>"+
       "</ul>"+
     "</div>"+
-    "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
+    "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search' style='zindex:99'>"+
       "<button id='searchbt' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
   "</nav>"
 }
