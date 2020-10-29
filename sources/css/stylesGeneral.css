@@ -1,3 +1,17 @@
+#brandLogo{
+    float: left;
+    margin-left: -175vh;
+    margin-top: 3vh;
+}
+@media(max-width:800px){
+    #brandLogo{
+        margin-left: 5vh;
+        margin-top: 3vh;
+    }
+    body{
+        background-color: red;
+    }
+}
 .container-fluid{
     display: grid;
     gap:1rem;
