@@ -13,7 +13,7 @@ function AddListenersSearch(){
     let elementSearch = document.getElementById("searchBox1")
     elementSearch.classList = "searchBox-Active"
     elementSearch.focus()
-    if(screen.width<=400){
+    if(screen.width<=500){
       elementSearch.style.width="26vh"
     }
     else{
