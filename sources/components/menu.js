@@ -18,9 +18,8 @@ function AddListenersSearch(){
     }
     else{
     elementSearch.style.width="100%"  
-    document.getElementById("brandLogo").style.display ="none"
     }
-    
+    document.getElementById("brandLogo").style.display ="none"
     document.getElementById("menu-list").style.display="none"
    // elementSearch.classList+=" searchBox-Active"
 })
@@ -57,9 +56,9 @@ function menuRender(){
         "<li class='nav-item'>"+
          "<a class='nav-link' href='#'>Contato</a>"+
       "</ul>"+
-        "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
-        "<button id='searchbt' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
     "</div>"+
+    "<input id='searchBox1' class='form-control mr-sm-2 searchBox-disible' type='search' placeholder='Procure por algo...' aria-label='Search'>"+
+      "<button id='searchbt' style='background-color:white;'><img src='sources/img/lupa.svg'></button>"+
   "</nav>"
 }
 
