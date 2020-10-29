@@ -262,6 +262,9 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #article01{
         margin-left:40vh;
     }
+    #brandLogo{
+        margin-left: 10vh;
+    }
 }
 @media (max-height:540px){
     #footerDiv{
@@ -273,6 +276,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         margin-top: 90vh;
     }
 } 
+
 
 /*Animations*/
 @keyframes SearchBox{
