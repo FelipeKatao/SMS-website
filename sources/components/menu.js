@@ -14,14 +14,14 @@ function AddListenersSearch(){
     elementSearch.classList = "searchBox-Active"
     elementSearch.focus()
     if(screen.width<=400){
-      elementSearch.style.width="20vh"
+      elementSearch.style.width="26vh"
     }
     else{
     elementSearch.style.width="100%"  
+    document.getElementById("brandLogo").style.display ="none"
     }
     
     document.getElementById("menu-list").style.display="none"
-    document.getElementById("brandLogo").style.display ="none"
    // elementSearch.classList+=" searchBox-Active"
 })
   document.getElementById("searchBox1").addEventListener("focusout",function(event){
