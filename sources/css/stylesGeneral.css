@@ -310,13 +310,6 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     #footerDiv{
         margin-top: 90vh;
     }
-    .searchBox-Active:focus{
-        border: #0B3C5D solid 0.4vh;
-        outline: none;
-        animation: SearchBoxResp;
-        animation-duration: 3s;
-        transition: 2s;
-    }
 } 
 
 
