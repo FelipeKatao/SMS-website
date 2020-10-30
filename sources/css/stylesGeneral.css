@@ -208,11 +208,11 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         position: relative;
       }
     #brandLogo{
-        margin-left: -8vh;
+        margin-left: -9vh;
         margin-top: 4vh;
     }
     #searchbt{
-        margin-right: 17vh;
+        margin-right: -2vh;
     }
 }
 @media (max-width:450px){
