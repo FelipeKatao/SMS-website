@@ -14,7 +14,6 @@ function AddListenersSearch(){
     let elementSearch = document.getElementById("searchBox1")
     if(screen.width<=500){
       search()
-      console.log("uai")
     }
     else{
     elementSearch.classList = "searchBox-Active"
