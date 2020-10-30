@@ -216,6 +216,12 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     }
 }
 @media (max-width:450px){
+    html, body {
+        overflow-x: hidden;
+      }
+    body {
+        position: relative;
+      }
     #article01{
         margin-left: -6vh;
     }
