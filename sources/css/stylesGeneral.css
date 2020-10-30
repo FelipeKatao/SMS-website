@@ -237,6 +237,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         animation: SearchBoxResp;
         animation-duration: 3s;
         transition: 2s;
+        width: 20vh;
     }
 }
 @media (max-width:375px){
@@ -253,6 +254,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         animation: SearchBoxResp;
         animation-duration: 3s;
         transition: 2s;
+        width: 20vh;
     }
 }
 @media (max-width:360px){
@@ -268,6 +270,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
         outline: none;
         animation: SearchBoxResp;
         animation-duration: 3s;
+        width: 20vh;
         transition: 2s;
     }
 }
