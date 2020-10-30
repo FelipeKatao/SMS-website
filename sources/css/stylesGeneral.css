@@ -193,6 +193,33 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     width: 169vh;
     margin-left: -18vh;
 }
+#searchScreen{
+    height: 100%;
+    width: 100%;
+    background-color: #0B3C5D;
+    position: fixed;
+    z-index: 99;
+    align-items: center;
+}
+#closeBtSearch{
+    float: right;
+    padding: 4vh;
+    color: white;
+    font-size: large;
+}
+.search-text{
+    margin-top: 12vh;
+    text-align: center;
+    padding: 1vh;
+    font-size: larger;
+    font-style: inherit;
+    color: white;
+}
+.searchBox-Title{
+    width: 60%;
+    margin: auto;
+    margin-top: 2vh ;
+}
 
 /* responsividade*/
 
