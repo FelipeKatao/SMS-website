@@ -200,6 +200,7 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
     position: fixed;
     z-index: 99;
     align-items: center;
+    animation: opacity 1s;
 }
 #closeBtSearch{
     float: right;
@@ -371,4 +372,8 @@ box-shadow: -1px 18px 19px -4px rgba(0,0,0,0.67);
 @keyframes SearchBoxResp{
     0% {opacity: 0; width: 10vh; }
     100%{opacity: 2; width: 20vh;}
+}
+@keyframes opacity{
+    0%{opacity: 0;}
+    100%{opacity: 2;}
 }
