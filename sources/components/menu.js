@@ -1,4 +1,5 @@
 import EngineApp from '../../Framework/engine.js'
+import search from '../components/search.js'
 
 function menu(){
     let eng = new EngineApp()
@@ -11,16 +12,17 @@ function AddListenersSearch(){
   document.getElementById("searchbt").addEventListener("click",function(event){
     event.preventDefault()
     let elementSearch = document.getElementById("searchBox1")
-    elementSearch.classList = "searchBox-Active"
-    elementSearch.focus()
     if(screen.width<=500){
-      elementSearch.style.width="26vh"
+      search()
+      console.log("uai")
     }
     else{
+    elementSearch.classList = "searchBox-Active"
+    elementSearch.focus()
     elementSearch.style.width="100%"  
-    }
     document.getElementById("brandLogo").style.display ="none"
     document.getElementById("menu-list").style.display="none"
+    }
    // elementSearch.classList+=" searchBox-Active"
 })
   document.getElementById("searchBox1").addEventListener("focusout",function(event){
